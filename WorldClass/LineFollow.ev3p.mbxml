@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EditorDefinitions>
   <PolyGroups>
-    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_000_MyBlockRed">
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_050_BrickButton">
       <Block>
         <Mode>MyBlock</Mode>
         <Description />

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_051_ColorSensor">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description />
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="Result" DisplayName="Result" Direction="Output" Identification="Identification_263_Volume_75.png" DataType="Single" />
+        <ParamInfo Name="CompareVal" DisplayName="CompareVal" Direction="Input" Identification="Identification_040_Index.png" DataType="Single" DefaultValue="50" Configuration="SliderVertical.custom" MinValue="0" MaxValue="100" />
+        <ParamInfo Name="Black" DisplayName="Black" Direction="Output" Identification="Identification_018_Color_Brown.png" DataType="Boolean" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
