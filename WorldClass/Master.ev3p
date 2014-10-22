@@ -181,7 +181,7 @@
                                 <Terminal Id="Input" Direction="Input" Wire="w16" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
                             </SequenceNode>
                             <Wire Id="w7" Joints="N(n1:Output) N(n15:SequenceIn)" />
-                            <ConfigurableCaseStructure Id="n10" Bounds="305 97 298 176" DataType="Int32" UserSelectorBounds="0 0 0 0" Selected="D10" Default="D10" PairedConfigurableMethodCall="n12">
+                            <ConfigurableCaseStructure Id="n10" Bounds="305 97 298 176" DataType="Int32" UserSelectorBounds="0 0 0 0" Selected="D14" Default="D10" PairedConfigurableMethodCall="n12">
                                 <Terminal Id="SequenceOut" Direction="Output" Wire="w16" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="280 79 18 18" />
                                 <ConfigurableCaseStructure.Case Id="D10" Bounds="10 4 278 169" Pattern="1">
                                     <SequenceNode Id="Output" Bounds="0 75 18 18">
