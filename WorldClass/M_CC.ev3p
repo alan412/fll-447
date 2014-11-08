@@ -49,6 +49,12 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w7" Joints="N(n4:SequenceOut) N(n6:SequenceIn)" />
                 <Wire Id="w5" Joints="N(n1:SequenceOut) N(n4:SequenceIn)" />
+                <Comment Bounds="170 -96 184 80" SizeMode="User" AttachStyle="Free">
+                    <Content>robot drives from base till the conditions are compleatly changed</Content>
+                </Comment>
+                <Comment Bounds="390 -94 100 80" SizeMode="User" AttachStyle="Free">
+                    <Content>the robot returns to base</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
