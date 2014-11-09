@@ -32,7 +32,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="wheel base">
                         <Terminal Id="name" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="15">
+                    <ConfigurableMethodTerminal ConfiguredValue="11.6">
                         <Terminal Id="valueIn" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -95,6 +95,9 @@
                 <Wire Id="w13" Joints="N(n8:SequenceOut) N(n11:SequenceIn)" />
                 <Wire Id="w14" Joints="N(n11:SequenceOut) N(n13:SequenceIn)" />
                 <Wire Id="w15" Joints="N(n11:Numeric) v(22) h(101) N(n13:valueIn)" />
+                <Comment Bounds="263 -52 100 80" SizeMode="User" AttachStyle="Free">
+                    <Content>Moved from 15 to 12 on new, slim, robot.</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
