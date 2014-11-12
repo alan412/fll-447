@@ -114,6 +114,13 @@
                 </ConfigurableMegaAccessor>
                 <Wire Id="w22" Joints="N(n13:Result) v(22) h(163) N(n18:Degrees)" />
                 <Wire Id="w24" Joints="N(n21:degrees) v(30) h(546) N(n9:Y)" />
+                <Comment Bounds="303 -107 199 79" SizeMode="User" AttachStyle="Free">
+                    <Content>this calculates turn radius </Content>
+                </Comment>
+                <Comment Bounds="557 -98 315 80" SizeMode="User" AttachStyle="Free">
+                    <Content>this converts the desired degrees of rotations to 
+wheel rotations</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
