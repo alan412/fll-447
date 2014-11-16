@@ -820,6 +820,15 @@
                     <Wire Id="w37" Joints="N(n35:SequenceOut) N(n12:SequenceIn)" />
                     <Wire Id="w36" Joints="N(n9:SequenceOut) N(n10:SequenceIn)" />
                     <Wire Id="w34" Joints="N(n17:SequenceOut) N(n1:SequenceIn)" />
+                    <Comment Bounds="85 153 143 129" SizeMode="User" AttachStyle="Free">
+                        <Content>This switch block displays the name of the program currently selected based off of the program value that is read on the red block before it</Content>
+                    </Comment>
+                    <Comment Bounds="1102 25 77 84" SizeMode="User" AttachStyle="Free">
+                        <Content>This button runs the program selected</Content>
+                    </Comment>
+                    <Comment Bounds="879 24 131 92" SizeMode="User" AttachStyle="Free">
+                        <Content>These buttons change the prgram value and in the process select the program.</Content>
+                    </Comment>
                 </ConfigurableWhileLoop>
                 <ConfigurableMethodCall Id="n9" Bounds="246 0 225 91" Target="DisplayString\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="Property of:">
@@ -918,7 +927,7 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w16" Joints="N(n15:SequenceOut) N(n17:SequenceIn)" />
                 <ConfigurableMethodCall Id="n17" Bounds="921 0 225 91" Target="DisplayString\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="be prosecuted">
+                    <ConfigurableMethodTerminal ConfiguredValue="be talked to">
                         <Terminal Id="Text" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="False">
@@ -943,6 +952,15 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w18" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="207 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w18" Joints="N(n17:SequenceOut) N(n13:SequenceIn)" />
+                <Comment Bounds="603 -87 219 55" SizeMode="User" AttachStyle="Free">
+                    <Content>This Shows the starting screen message of our master program.</Content>
+                </Comment>
+                <Comment Bounds="129 -75 146 57" SizeMode="User" AttachStyle="Free">
+                    <Content>This sets the value that determines which program is run.</Content>
+                </Comment>
+                <Comment Bounds="1097 -88 145 80" SizeMode="User" AttachStyle="Free">
+                    <Content>Waits until a button is pressed to continue past the starting screen</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
