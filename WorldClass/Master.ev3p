@@ -357,7 +357,7 @@
                                 <Terminal Id="SequenceIn" Direction="Input" Wire="w31" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                                 <Terminal Id="SequenceOut" Direction="Output" Wire="w27" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                             </ConfigurableMethodCall>
-                            <Wire Id="w11" Joints="N(n9:valueOut) v(22) h(101) N(n12:Number) B(0) v(54) h(483) N(n35:X)" />
+                            <Wire Id="w11" Joints="N(n9:valueOut) v(54) h(483) N(n35:X) B(0) v(22) h(101) N(n12:Number)" />
                             <ConfigurableWaitFor Id="n15" Bounds="119 131 101 91" Target="TimeCompare\.vix">
                                 <ConfigurableMethodTerminal ConfiguredValue="0.5">
                                     <Terminal Id="How\ Long" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
@@ -499,7 +499,7 @@
                         <Terminal Id="SequenceIn" Direction="Input" Wire="w7" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                         <Terminal Id="SequenceOut" Direction="Output" Wire="w33" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                     </ConfigurableMethodCall>
-                    <Wire Id="w29" Joints="N(n28:valueOut) v(54) h(476) N(n35:Text) B(0) v(22) h(101) N(n33:Number)" />
+                    <Wire Id="w29" Joints="N(n28:valueOut) v(22) h(101) N(n33:Number) B(0) v(54) h(476) N(n35:Text)" />
                     <ConfigurableCaseStructure Id="n31" Bounds="233 28 290 281" DataType="Int32" UserSelectorBounds="0 0 0 0" Selected="D35" Default="D31" PairedConfigurableMethodCall="n33">
                         <Terminal Id="SequenceOut" Direction="Output" Wire="w36" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="272 184 18 18" />
                         <ConfigurableCaseStructure.Case Id="D31" Bounds="10 4 270 274" Pattern="1">
