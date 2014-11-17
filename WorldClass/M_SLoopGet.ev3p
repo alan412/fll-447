@@ -284,9 +284,9 @@
                 </Comment>
                 <Wire Id="w36" Joints="N(n33:SequenceOut) N(n12:SequenceIn)" />
                 <Comment Bounds="1014 -92 306 80" SizeMode="User" AttachStyle="Free">
-                    <Content>Go more slowly slowly, then stop at red line.</Content>
+                    <Content>Go more slowly, then stop at red line.</Content>
                 </Comment>
-                <Comment Bounds="1360 -97 100 80" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="1360 -105 100 88" SizeMode="User" AttachStyle="Free">
                     <Content>TODO See if still needed, intended to make less jerky.</Content>
                 </Comment>
                 <Comment Bounds="1497 -93 92 80" SizeMode="User" AttachStyle="Free">

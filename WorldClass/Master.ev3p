@@ -215,7 +215,7 @@
                                 <Terminal Id="Input" Direction="Input" Wire="w29" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
                             </SequenceNode>
                             <Wire Id="w7" Joints="N(n1:Output) N(n36:SequenceIn)" />
-                            <ConfigurableCaseStructure Id="n10" Bounds="406 85 253 170" DataType="Int32" UserSelectorBounds="0 0 0 0" Selected="D10" Default="D10" PairedConfigurableMethodCall="n12">
+                            <ConfigurableCaseStructure Id="n10" Bounds="406 85 253 170" DataType="Int32" UserSelectorBounds="0 0 0 0" Selected="D27" Default="D10" PairedConfigurableMethodCall="n12">
                                 <Terminal Id="SequenceOut" Direction="Output" Wire="w28" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="235 77 18 18" />
                                 <ConfigurableCaseStructure.Case Id="D10" Bounds="10 4 233 163" Pattern="1">
                                     <SequenceNode Id="Output" Bounds="0 73 18 18">
@@ -500,7 +500,7 @@
                         <Terminal Id="SequenceOut" Direction="Output" Wire="w33" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                     </ConfigurableMethodCall>
                     <Wire Id="w29" Joints="N(n28:valueOut) v(54) h(476) N(n35:Text) B(0) v(22) h(101) N(n33:Number)" />
-                    <ConfigurableCaseStructure Id="n31" Bounds="233 28 290 281" DataType="Int32" UserSelectorBounds="0 0 0 0" Selected="D31" Default="D31" PairedConfigurableMethodCall="n33">
+                    <ConfigurableCaseStructure Id="n31" Bounds="233 28 290 281" DataType="Int32" UserSelectorBounds="0 0 0 0" Selected="D35" Default="D31" PairedConfigurableMethodCall="n33">
                         <Terminal Id="SequenceOut" Direction="Output" Wire="w36" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="272 184 18 18" />
                         <ConfigurableCaseStructure.Case Id="D31" Bounds="10 4 270 274" Pattern="1">
                             <SequenceNode Id="Output" Bounds="0 180 18 18">
@@ -720,7 +720,7 @@
                                 <Terminal Id="Input" Direction="Input" Wire="w5" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
                             </SequenceNode>
                             <ConfigurableMethodCall Id="n32" Bounds="18 147 225 91" Target="DisplayString\.vix">
-                                <ConfigurableMethodTerminal ConfiguredValue="Door">
+                                <ConfigurableMethodTerminal ConfiguredValue="Facetime/sports">
                                     <Terminal Id="Text" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                                 </ConfigurableMethodTerminal>
                                 <ConfigurableMethodTerminal ConfiguredValue="True">
