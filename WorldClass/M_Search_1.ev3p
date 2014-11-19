@@ -109,7 +109,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="-55">
+                    <ConfigurableMethodTerminal ConfiguredValue="-58">
                         <Terminal Id="Speed\ Left" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="-60">
@@ -128,8 +128,26 @@
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="176 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w20" Joints="N(n14:SequenceOut) N(n15:SequenceIn)" />
-                <Comment Bounds="-17 -102 100 80" SizeMode="User" AttachStyle="Free">
-                    <Content></Content>
+                <Comment Bounds="617 -95 100 80" SizeMode="User" AttachStyle="Free">
+                    <Content>hits the slider</Content>
+                </Comment>
+                <Comment Bounds="176 -92 100 80" SizeMode="User" AttachStyle="Free">
+                    <Content>Rams into wall to be square</Content>
+                </Comment>
+                <Comment Bounds="361 -108 100 86" SizeMode="User" AttachStyle="Free">
+                    <Content>Backs up to be in the correct position for bumping the slider</Content>
+                </Comment>
+                <Comment Bounds="481 -97 82 80" SizeMode="User" AttachStyle="Free">
+                    <Content>Turns to hit the slider</Content>
+                </Comment>
+                <Comment Bounds="776 -112 100 87" SizeMode="User" AttachStyle="Free">
+                    <Content>Backs up to avoid interfearence with the search engine</Content>
+                </Comment>
+                <Comment Bounds="909 -106 83 80" SizeMode="User" AttachStyle="Free">
+                    <Content>Turns to face base</Content>
+                </Comment>
+                <Comment Bounds="1060 -105 100 80" SizeMode="User" AttachStyle="Free">
+                    <Content>Swing turns to en up compleatly in base</Content>
                 </Comment>
             </BlockDiagram>
         </VirtualInstrument>
