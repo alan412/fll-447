@@ -132,7 +132,7 @@
                     <Wire Id="w21" Joints="N(n7:Black) v(46) h(427) N(n16:B)" />
                     <Wire Id="w22" Joints="N(n16:Result) v(22) h(101) N(n1:Do\ Stop)" />
                 </ConfigurableWhileLoop>
-                <ConfigurableMethodCall Id="n20" Bounds="1353 0 101 91" Target="MoveStop\.vix">
+                <ConfigurableMethodCall Id="n20" Bounds="1354 0 101 91" Target="MoveStop\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
@@ -169,6 +169,9 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w6" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w10" Joints="N(n7:SequenceOut) N(n9:SequenceIn)" />
+                <Comment Bounds="746 -260 260 80" SizeMode="User" AttachStyle="Free">
+                    <Content>Steering is left sensor minus right sensor untill they both read black</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>

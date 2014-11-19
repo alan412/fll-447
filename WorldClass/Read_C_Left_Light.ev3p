@@ -79,7 +79,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w21" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w17" Joints="N(n6:valueOut) v(38) h(365) N(n14:X)" />
-                <Wire Id="w15" Joints="N(n8:valueOut) v(46) h(295) N(n14:Y) B(0) v(30) h(132) N(n10:Y)" />
+                <Wire Id="w15" Joints="N(n8:valueOut) v(30) h(132) N(n10:Y) B(0) v(46) h(295) N(n14:Y)" />
                 <Wire Id="w16" Joints="N(n10:SequenceOut) N(n14:SequenceIn)" />
                 <ConfigurableMethodCall Id="n17" Bounds="917 0 163 91" Target="Arithmetic_Divide\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1">
@@ -119,14 +119,14 @@
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
                 <ConfigurableMegaAccessor Id="n29" Bounds="1419 2 80 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Output">
-                    <ConfigurableMethodTerminal ConfiguredValue="False">
-                        <Terminal Id="Black" Direction="Input" Wire="w29" DataType="Boolean" Hotspot="0.5 1" Bounds="41 56 30 27" />
-                    </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Result" Direction="Input" Wire="w24" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
                     </ConfigurableMethodTerminal>
+                    <ConfigurableMethodTerminal ConfiguredValue="False">
+                        <Terminal Id="Black" Direction="Input" Wire="w29" DataType="Boolean" Hotspot="0.5 1" Bounds="41 56 30 27" />
+                    </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
-                <Wire Id="w24" Joints="N(n21:Result) v(30) h(101) N(n25:x) B(0) v(22) h(233) N(n29:Result)" />
+                <Wire Id="w24" Joints="N(n21:Result) v(22) h(233) N(n29:Result) B(0) v(30) h(101) N(n25:x)" />
                 <ConfigurableMethodCall Id="n25" Bounds="1243 0 163 91" Target="Comparison_Less\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1">
                         <Terminal Id="x" Direction="Input" Wire="w24" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
@@ -143,6 +143,9 @@
                 <Wire Id="w27" Joints="N(n21:SequenceOut) N(n25:SequenceIn)" />
                 <Wire Id="w28" Joints="N(n28:CompareVal) v(30) h(203) N(n25:y)" />
                 <Wire Id="w29" Joints="N(n25:Result) v(32) h(101) N(n29:Black)" />
+                <Comment Bounds="444 -97 559 80" SizeMode="User" AttachStyle="Free">
+                    <Content>(Raw-Black)/(White-Black)x100: This converts the light sensor reading to between 0-100 where zero is black and 100 is white</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>

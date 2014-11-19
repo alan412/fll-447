@@ -168,7 +168,7 @@
                         <Terminal Id="SequenceIn" Direction="Input" Wire="w4" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                         <Terminal Id="SequenceOut" Direction="Output" Wire="w30" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                     </ConfigurableMethodCall>
-                    <Wire Id="w35" Joints="N(n33:Black) v(148) h(960) N(n26:A) B(0) v(22) h(101) N(n6:Boolean)" />
+                    <Wire Id="w35" Joints="N(n33:Black) v(22) h(101) N(n6:Boolean) B(0) v(148) h(960) N(n26:A)" />
                     <Wire Id="w30" Joints="N(n33:SequenceOut) N(n6:SequenceIn)" />
                     <ConfigurableMethodCall Id="n7" Bounds="558 143 163 91" Target="Read_C_Right_Light\.ev3p">
                         <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -187,7 +187,7 @@
                         <Terminal Id="SequenceOut" Direction="Output" Wire="w22" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                     </ConfigurableMethodCall>
                     <Wire Id="w22" Joints="N(n7:SequenceOut) N(n20:SequenceIn)" />
-                    <Wire Id="w23" Joints="N(n7:Black) v(140) h(480) N(n26:B) B(0) v(22) h(101) N(n20:Boolean)" />
+                    <Wire Id="w23" Joints="N(n7:Black) v(22) h(101) N(n20:Boolean) B(0) v(140) h(480) N(n26:B)" />
                     <Wire Id="w24" Joints="N(n26:SequenceOut) N(n1:SequenceIn)" />
                 </ConfigurableWhileLoop>
                 <Wire Id="w4" Joints="N(n7:SequenceOut) N(n2:SequenceIn)" />
@@ -213,6 +213,18 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w4" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w8" Joints="N(n5:SequenceOut) N(n7:SequenceIn)" />
+                <Comment Bounds="201 -116 100 80" SizeMode="User" AttachStyle="Free">
+                    <Content>switch light sensors into reflected mode</Content>
+                </Comment>
+                <Comment Bounds="1821 -257 100 80" SizeMode="User" AttachStyle="Free">
+                    <Content>when both are black get out of loop</Content>
+                </Comment>
+                <Comment Bounds="960 -263 206 80" SizeMode="User" AttachStyle="Free">
+                    <Content>if left sensor reads black stop left motor</Content>
+                </Comment>
+                <Comment Bounds="1422 -267 206 80" SizeMode="User" AttachStyle="Free">
+                    <Content>if right sensor reads black stop right motor</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
