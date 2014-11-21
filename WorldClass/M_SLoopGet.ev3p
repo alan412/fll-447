@@ -131,7 +131,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="InterruptsToListenFor_16B03592_CD76_4D58_8DC3_E3C3091E327A" Direction="Input" DataType="Int32" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="90">
+                    <ConfigurableMethodTerminal ConfiguredValue="95">
                         <Terminal Id="degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w32" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
@@ -287,7 +287,7 @@
                 <Comment Bounds="1497 -93 92 80" SizeMode="User" AttachStyle="Free">
                     <Content>Backwards to align with the loops.</Content>
                 </Comment>
-                <Comment Bounds="1643 -89 100 80" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="1643 -112 100 103" SizeMode="User" AttachStyle="Free">
                     <Content>Lower the attachment motor partway so it doesn't hit the mission model.</Content>
                 </Comment>
                 <Comment Bounds="2097 -101 278 80" SizeMode="User" AttachStyle="Free">

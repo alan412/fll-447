@@ -52,7 +52,7 @@
                         </ConfigurableMethodCall>
                     </ConfigurableWhileLoop.BuiltInMethod>
                     <PairedConfigurableMethodCall Id="n13" Bounds="47 148 85 91" Target="TouchCompare\.vix" PairedStructure="n10">
-                        <ConfigurableMethodTerminal ConfiguredValue="1.2">
+                        <ConfigurableMethodTerminal ConfiguredValue="1.1">
                             <Terminal Id="Port" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                         </ConfigurableMethodTerminal>
                         <ConfigurableMethodTerminal ConfiguredValue="1">

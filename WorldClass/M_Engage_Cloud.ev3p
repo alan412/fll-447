@@ -29,7 +29,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="20">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="180">
+                    <ConfigurableMethodTerminal ConfiguredValue="190">
                         <Terminal Id="Degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -39,7 +39,7 @@
                         <Terminal Id="InterruptsToListenFor_16B03592_CD76_4D58_8DC3_E3C3091E327A" Direction="Input" DataType="Int32" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w15" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
-                    <Terminal Id="SequenceOut" Direction="Output" Wire="w9" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
+                    <Terminal Id="SequenceOut" Direction="Output" Wire="w17" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
                 <ConfigurableMethodCall Id="n8" Bounds="928 0 194 91" Target="MoveTankDistance\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
@@ -114,10 +114,9 @@
                     <ConfigurableMethodTerminal ConfiguredValue="True">
                         <Terminal Id="Break\/Coast" Direction="Input" DataType="Boolean" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <Terminal Id="SequenceIn" Direction="Input" Wire="w9" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
+                    <Terminal Id="SequenceIn" Direction="Input" Wire="w17" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w14" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <Wire Id="w9" Joints="N(n6:SequenceOut) N(n16:SequenceIn)" />
                 <Wire Id="w13" Joints="N(n1:SequenceOut) N(n10:SequenceIn)" />
                 <Comment Bounds="202 -105 157 80" SizeMode="User" AttachStyle="Free">
                     <Content>this raises the attachment arm from the ground to increase acuracy</Content>
@@ -125,19 +124,20 @@
                 <Comment Bounds="489 -94 100 80" SizeMode="User" AttachStyle="Free">
                     <Content>this engages engage</Content>
                 </Comment>
-                <Comment Bounds="372 -191 59 171" SizeMode="User" AttachStyle="Free">
-                    <Content>we had trouble traveling down the wall and this alows us to do so predictalby</Content>
+                <Comment Bounds="372 -196 64 176" SizeMode="User" AttachStyle="Free">
+                    <Content>we had trouble traveling down the wall and this alows us to do so predictably</Content>
                 </Comment>
                 <Comment Bounds="608 -103 145 84" SizeMode="User" AttachStyle="Free">
                     <Content>this lowers the attachment arm to the ground in postion to insert the cloud key</Content>
                 </Comment>
-                <Comment Bounds="942 -97 187 80" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="1031 -89 187 80" SizeMode="User" AttachStyle="Free">
                     <Content>this returns the robot to base and compleats one rotation of engage</Content>
                 </Comment>
-                <Comment Bounds="775 -97 142 80" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="775 -115 142 98" SizeMode="User" AttachStyle="Free">
                     <Content>this insertst the cloud key while simultaniously disengaging the key form the robot</Content>
                 </Comment>
                 <Wire Id="w14" Joints="N(n16:SequenceOut) N(n8:SequenceIn)" />
+                <Wire Id="w17" Joints="N(n6:SequenceOut) N(n16:SequenceIn)" />
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>

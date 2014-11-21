@@ -32,7 +32,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w7" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="114 33 18 18" />
                 </ConfigurableMethodCall>
                 <ConfigurableWaitFor Id="n6" Bounds="626 0 132 91" Target="TouchCompare\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="1.2">
+                    <ConfigurableMethodTerminal ConfiguredValue="1.1">
                         <Terminal Id="Port" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="1">
@@ -179,7 +179,7 @@
                 </Comment>
                 <Wire Id="w20" Joints="N(n12:SequenceOut) N(n21:SequenceIn)" />
                 <ConfigurableWaitFor Id="n21" Bounds="859 0 101 91" Target="TimeCompare\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="0.5">
+                    <ConfigurableMethodTerminal ConfiguredValue="0.2">
                         <Terminal Id="How\ Long" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
