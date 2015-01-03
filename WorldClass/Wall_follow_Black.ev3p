@@ -83,10 +83,10 @@
                                 <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
                                     <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                                 </ConfigurableMethodTerminal>
-                                <ConfigurableMethodTerminal ConfiguredValue="50">
+                                <ConfigurableMethodTerminal ConfiguredValue="30">
                                     <Terminal Id="Speed\ Left" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                                 </ConfigurableMethodTerminal>
-                                <ConfigurableMethodTerminal ConfiguredValue="55">
+                                <ConfigurableMethodTerminal ConfiguredValue="33">
                                     <Terminal Id="Speed\ Right" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                                 </ConfigurableMethodTerminal>
                                 <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -109,10 +109,10 @@
                                 <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
                                     <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                                 </ConfigurableMethodTerminal>
-                                <ConfigurableMethodTerminal ConfiguredValue="55">
+                                <ConfigurableMethodTerminal ConfiguredValue="33">
                                     <Terminal Id="Speed\ Left" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                                 </ConfigurableMethodTerminal>
-                                <ConfigurableMethodTerminal ConfiguredValue="50">
+                                <ConfigurableMethodTerminal ConfiguredValue="30">
                                     <Terminal Id="Speed\ Right" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                                 </ConfigurableMethodTerminal>
                                 <ConfigurableMethodTerminal ConfiguredValue="0">
