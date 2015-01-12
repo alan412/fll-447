@@ -21,7 +21,7 @@
                         <Terminal Id="degrees" Direction="Output" Wire="w28" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
-                <ConfigurableMethodCall Id="n15" Bounds="658 0 132 91" Target="Pivotleft_Speed\.ev3p">
+                <ConfigurableMethodCall Id="n15" Bounds="208 0 132 91" Target="Pivotleft_Speed\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="90">
                         <Terminal Id="degrees" Direction="Input" Wire="w28" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -35,7 +35,10 @@
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="114 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w24" Joints="N(n1:SequenceOut) N(n15:SequenceIn)" />
-                <Wire Id="w28" Joints="N(n21:degrees) v(22) h(652) N(n15:degrees)" />
+                <Wire Id="w28" Joints="N(n21:degrees) v(22) h(202) N(n15:degrees)" />
+                <Comment Bounds="80 -92 250 80" SizeMode="User" AttachStyle="Free">
+                    <Content>This is so we didn't break old programs.  We made a new My-block that you can enter the speed into so pivot left calls pivot left speed.</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
