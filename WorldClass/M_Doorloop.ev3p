@@ -47,7 +47,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w7" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <Wire Id="w7" Joints="N(n4:SequenceOut) h(31) v(-65) N(n6:SequenceIn) B(0) h(30) v(62) N(n8:SequenceIn)" />
+                <Wire Id="w7" Joints="N(n4:SequenceOut) h(30) v(62) N(n8:SequenceIn) B(0) h(31) v(-65) N(n6:SequenceIn)" />
                 <ConfigurableMethodCall Id="n8" Bounds="493 40 163 91" Target="MediumMotorDistance\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1.D">
                         <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
@@ -67,7 +67,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w7" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w20" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <ConfigurableMethodCall Id="n9" Bounds="819 40 163 91" Target="DRIVE_CM\.ev3p">
+                <ConfigurableMethodCall Id="n9" Bounds="821 40 163 91" Target="DRIVE_CM\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="InterruptsToListenFor_16B03592_CD76_4D58_8DC3_E3C3091E327A" Direction="Input" DataType="Int32" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
@@ -106,7 +106,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="InterruptsToListenFor_16B03592_CD76_4D58_8DC3_E3C3091E327A" Direction="Input" DataType="Int32" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="-40">
+                    <ConfigurableMethodTerminal ConfiguredValue="-50">
                         <Terminal Id="CM\ Input" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="60">
@@ -141,7 +141,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="InterruptsToListenFor_16B03592_CD76_4D58_8DC3_E3C3091E327A" Direction="Input" DataType="Int32" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="-20">
+                    <ConfigurableMethodTerminal ConfiguredValue="-10">
                         <Terminal Id="CM\ Input" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="15">
@@ -155,7 +155,7 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w20" Joints="N(n8:SequenceOut) N(n11:SequenceIn)" />
                 <Wire Id="w16" Joints="N(n1:SequenceOut) N(n4:SequenceIn)" />
-                <Wire Id="w14" Joints="N(n9:SequenceOut) h(46) v(81) N(n15:SequenceIn) B(0) h(18.5) v(-135) N(n16:SequenceIn)" />
+                <Wire Id="w14" Joints="N(n9:SequenceOut) h(16.5) v(-135) N(n16:SequenceIn) B(0) h(44) v(81) N(n15:SequenceIn)" />
                 <ConfigurableMethodCall Id="n17" Bounds="640 181 101 91" Target="PivotLeft\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="InterruptsToListenFor_16B03592_CD76_4D58_8DC3_E3C3091E327A" Direction="Input" DataType="Int32" Hotspot="0.5 1" Bounds="0 0 0 0" />
