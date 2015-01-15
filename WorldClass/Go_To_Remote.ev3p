@@ -79,13 +79,13 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w16" Joints="N(n6:SequenceOut) N(n20:SequenceIn)" />
                 <Wire Id="w21" Joints="N(n20:SequenceOut) N(n17:SequenceIn)" />
-                <Comment Bounds="317 -96 100 88" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="363 -94 100 88" SizeMode="User" AttachStyle="Free">
                     <Content>Turns the robot to avoid cloud</Content>
                 </Comment>
-                <Comment Bounds="483 -91 100 80" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="545 -91 100 80" SizeMode="User" AttachStyle="Free">
                     <Content>Takes robot off the first green line</Content>
                 </Comment>
-                <Comment Bounds="629 -48 248 38" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="689 -48 248 38" SizeMode="User" AttachStyle="Free">
                     <Content>Finds green line near remote control</Content>
                 </Comment>
                 <ConfigurableMethodCall Id="n21" Bounds="1054 0 75 91" Target="LineFollow\.ev3p">
@@ -106,10 +106,10 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w22" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w22" Joints="N(n22:SequenceOut) N(n21:SequenceIn)" />
-                <Comment Bounds="907 -82 77 78" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="972 -82 77 78" SizeMode="User" AttachStyle="Free">
                     <Content>Faces the remote</Content>
                 </Comment>
-                <Comment Bounds="1003 -84 56 81" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="1063 -84 56 81" SizeMode="User" AttachStyle="Free">
                     <Content>Line follows to remote</Content>
                 </Comment>
                 <ConfigurableMethodCall Id="n28" Bounds="1129 0 75 91" Target="square_on_line\.ev3p">
@@ -120,7 +120,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="57 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w24" Joints="N(n21:SequenceOut) N(n28:SequenceIn)" />
-                <Comment Bounds="1071 -88 63 80" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="1124 -86 63 80" SizeMode="User" AttachStyle="Free">
                     <Content>Puts the robot dead on line</Content>
                 </Comment>
                 <ConfigurableWaitFor Id="n48" Bounds="821 0 132 91" Target="ColorCompare\.vix">
